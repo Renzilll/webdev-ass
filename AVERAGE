@@ -1,0 +1,9 @@
+# Ask the user to enter two integers
+x = int(input("Enter x: "))
+y = int(input("Enter y: "))
+
+# Calculate the average
+average = (x + y) / 2
+
+# Print the average formatted to two decimal places
+print(f"Average: {average:.2f}")
